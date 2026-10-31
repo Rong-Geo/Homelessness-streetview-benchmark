@@ -141,10 +141,6 @@ The original full-length videos, exact GPS tracks, and potentially identifying m
 
 The frames show people in public spaces, some of whom may be experiencing homelessness. Use this dataset only for research on aggregate, privacy-preserving measurement of urban conditions. Do not use it to identify, re-identify, track, or profile individuals, and do not combine it with other data for that purpose.
 
-## License
-
-The dataset is released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); see `LICENSE`. Please cite the paper when you use it.
-
 ## Citation
 
 ```bibtex
