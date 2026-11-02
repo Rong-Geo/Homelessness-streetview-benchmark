@@ -39,23 +39,11 @@ cd homelessness-streetview-benchmark
 git sparse-checkout set data/test
 ```
 
-**Check the download** (Python 3, standard library only):
-
-```bash
-python scripts/check_dataset.py
-```
-
-Expected last line: `OK: dataset is complete.`
-
 ## Folder structure
 
 ```
 homelessness-streetview-benchmark/
 ├── README.md
-├── LICENSE
-├── CITATION.cff
-├── scripts/
-│   └── check_dataset.py           # verifies image counts, box counts, missing files
 └── data/
     ├── train/
     │   ├── _annotations.coco.json # COCO annotations for the 754 train images
@@ -135,7 +123,7 @@ print(len(track), "boxes share track_id", anns[0]["track_id"])
 
 ## What is not included
 
-The original full-length videos, exact GPS tracks, and potentially identifying metadata are not public because they may contain personally identifiable and sensitive location information. Subject to institutional approval and a data-use agreement, restricted materials may be made available to qualified researchers on reasonable request to the corresponding author (xiaobai.liu@sdsu.edu). Training code, model configurations, and evaluation scripts will be added before publication.
+The original full-length videos, exact GPS tracks, and potentially identifying metadata are not public because they may contain personally identifiable and sensitive location information. Subject to institutional approval and a data-use agreement, restricted materials may be made available to qualified researchers on reasonable request to the corresponding author (xiaobai.liu@sdsu.edu). Training code, model configurations, and evaluation scripts will be deposited in a permanent public repository before publication.
 
 ## Responsible use
 
